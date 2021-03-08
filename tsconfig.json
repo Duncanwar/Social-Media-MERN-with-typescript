@@ -1,0 +1,14 @@
+{ 
+     "ts-node": {
+    "transpileOnly": true
+  },
+    "compilerOptions": {
+        "outDir": "dist",
+        "sourceMap": true,
+        "module": "commonjs",
+        "target": "es2017"
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
